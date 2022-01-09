@@ -4,7 +4,7 @@ Daily News Website developed using  Python,django-framework and NewsApi to get l
 
 
 
-##Requirement
+## Requirement
 
 NewsApi:            (Documentation link- https://newsapi.org/docs/client-libraries/python)
 Django-Framework:   (Documentation link-https://www.djangoproject.com/)
