@@ -1,0 +1,32 @@
+<nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark ">
+    <div class="container">  
+      <a class="navbar-brand" href="#">Daily News</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="{% url 'news:bbc-news' %}">BBC</a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'news:verge-news' %}">VERGE</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{% url 'news:vice-news' %}">VICE</a>
+          </li>
+          <li>
+            <a class="nav-link" href="{%url 'news:aljazeera-news' %}">Al-Jazeera</a>
+          </li>
+          <li class="nav-item dropdown">
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>

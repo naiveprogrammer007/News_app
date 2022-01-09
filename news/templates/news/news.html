@@ -1,0 +1,27 @@
+{%extends 'base.html'%}
+	
+{%block content%}
+<div class="container mt-3">
+	
+<div class="row">
+	{%for i in item%}
+  <div class="col-sm-4 py-2">
+    <div class="card border-primary">
+   	  <img class="card-img-top img-fluid" src="{{i.urlToImage}}" alt="Card image cap">	
+      <div class="card-body">
+        <h5 class="card-title">{{i.title}}</h5>
+				<p class="card-text mb-3">{{i.description}}</p>
+				<a href="{{i.url}}"target='_blank' class="btn btn-dark">Read More</a>
+      </div>
+
+    </div>
+  </div>
+{%endfor%}
+  </div>
+  
+</div>
+<
+
+{%endblock content%}
+
+
