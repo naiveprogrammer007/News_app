@@ -1,4 +1,4 @@
-# News_app (Made this app for personal use)
+# News App using Django-Framwork and Newsapi
 
 Daily News Website developed using  Python,django-framework and NewsApi to get live updates of each headlines every hour, included 4 top News sources.
 
